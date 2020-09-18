@@ -17,7 +17,7 @@ MUGISHA THIERRY
 
 ### SETUP
 ---
-Clone this repo to your desktop and run
+Fork this repository after clone this repository to go on your local git and after open it in your vscode and make same changes.
 --- 
 #### COPY RIGHT AND LICENSE
 ---
