@@ -2,7 +2,7 @@
 ---
 Here is the link to the portoflio webage:
 
-![computer](image/compter.jpg)
+![computer](https://resize.hswstatic.com/w_796/gif/what-is-a-computer-algorithm.jpg)
 ---
 ## AUTHOR
 ---
