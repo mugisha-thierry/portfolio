@@ -1,34 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 header {
     width: 100;
     background-color: rgb(55, 56, 55);
+    color: white;
 }
 
 nav ul {
-    margin-left: 500px;
     display: flex;
     box-flex: row;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
     overflow: hidden;
+}
+nav a {
+    color: white;
 }
 
 nav li {
     list-style: none;
+    padding: 10px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
 }
-
 body {
-    width: 100%;
-    height: 500px;
     background-color: rgb(55, 56, 55);
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
 }
-
 .first {
     background-color: black;
     height: 500px;
@@ -36,61 +35,48 @@ body {
     margin-top: 0%;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 0px;
+    /* margin-bottom: px; */
+    overflow: hidden;
+    /* background-image: url(https://imagehost7.online-image-editor.com/oie_upload/images/2020941p8RwuL9u/2022926lAa7zA65.jpg); */
 }
-
 #hi {
-    position: relative;
-    left: 140px;
-    top: 120px;
+    margin-left: 40%;
+    padding-top: 70px;
     color: yellow;
     font-size: 20px;
+    overflow: hidden;
 }
-
-#name {
-    position: relative;
-    left: 190px;
-    top: 140px;
+#name{
+    margin-left: 60%;
+    padding-top: 30pxpx;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-
-#status {
+#ifoto{
     position: relative;
-    left: 140px;
-    top: 150px;
+    left: 10px;
+    bottom: 350px;
+    margin-right: 70%;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
-
-#quote {
-    position: relative;
-    left: 170px;
-    right: 50px;
-    bottom: 180px;
+#status{
+    margin-left: 40%;
+    padding-top: 70px;
+    overflow: hidden;
+}
+#quote{
+    margin-left: 40%;
+    overflow: hidden;
     font-size: 20px;
     border: 10px solid green;
     border-radius: 10px;
     background-color: green;
-    margin-right: 700px;
 }
-
-#ifoto {
-    position: relative;
-    left: 700px;
-    bottom: 60px;
-    width: 300px;
-    height: 400px;
-    max-width: 100%;
-}
-
-nav a {
-    color: white;
-}
-
 h2 {
-    position: relative;
-    left: 500px;
-    top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
     color: yellow;
 }
 
@@ -102,44 +88,56 @@ h2 {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 0px;
+    overflow: hidden;
 }
 
-#ifoto2 {
+#ifoto2{
     position: relative;
-    left: 700px;
-    bottom: 300px;
-    width: 300px;
-    height: 450px;
+    left: 10px;
+    bottom: 250px;
+    margin-right: 70%;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
 
 #moringa {
     position: relative;
-    left: 170px;
-    right: 50px;
-    top: 50px;
-    font-size: 20px;
+    top: 30px;
+    margin-left: 40%;
     border: 10px solid green;
     border-radius: 10px;
     background-color: green;
-    margin-right: 700px;
 }
-
-#eduction {
+    #why{
     position: relative;
-    left: 170px;
-    right: 300px;
-    top: 70px;
-    font-size: 20px;
-    margin-right: 700px;
+    top: 30px;
+    border: 10px solid green;
+    border-radius: 10px;
+    background-color: green;
+    margin-left: 40%;
 }
-
+#study{
+    position: relative;
+    top: 30px;
+    border: 10px solid green;
+    border-radius: 10px;
+    background-color: green;
+    margin-left: 40%;
+}
 h3 {
-    position: relative;
-    left: 500px;
-    top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
     color: yellow;
+    overflow: hidden;
 }
-
+#job{
+    position: relative;
+    top: 30px;
+    border: 10px solid green;
+    border-radius: 10px;
+    background-color: green;
+    margin-left: 40%;
+}
 .third {
     background-color: black;
     height: 500px;
@@ -148,37 +146,42 @@ h3 {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 0px;
+    overflow: hidden;
 }
 
 h4 {
-    position: relative;
-    left: 500px;
+    margin-left: 40%;
+    margin-right: 40%;
     color: yellow;
+    overflow: hidden;
 }
 
 .fab {
     margin-left: 100px;
     color: white;
+    position: relative;
+    bottom: 20px;
 }
 
 .fa-envelope {
+    position: relative;
+    bottom: 30px;
     color: white;
-    font-size: 2px;
+    /* font-size: 3px; */
     margin-left: 50px;
 }
 
 #pc {
     position: relative;
-    left: 700px;
-    bottom: 220px;
-    width: 300px;
-    height: 300px;
+    left: 10px;
+    bottom: 600px;
+    overflow: hidden;
 }
 
 h5 {
     position: relative;
-    left: 190px;
-    top: 80px;
+    top: 0px;
+    margin-left: 70%;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
@@ -186,14 +189,14 @@ h5 {
 
 #list1 {
     position: relative;
-    left: 140px;
-    top: 80px;
+    bottom: 70px;
+    margin-left: 60%;
 }
 
 h6 {
     position: relative;
-    left: 190px;
-    top: 80px;
+    left: 50%;
+    bottom: 140px;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
@@ -201,14 +204,14 @@ h6 {
 
 #list2 {
     position: relative;
-    left: 140px;
-    top: 80px;
+    bottom: 240px;
+    margin-left: 40%;
 }
 
 h1 {
     position: relative;
-    left: 190px;
-    top: 80px;
+    bottom: 250px;
+    margin-left: 70%;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
@@ -216,55 +219,27 @@ h1 {
 
 #list3 {
     position: relative;
-    left: 140px;
-    top: 80px;
+    bottom: 250px;
+    margin-left: 60%;
 }
-
-#why {
-    position: relative;
-    left: 170px;
-    right: 50px;
-    top: 80px;
-    font-size: 20px;
-    border: 10px solid green;
-    border-radius: 10px;
-    background-color: green;
-    margin-right: 700px;
-}
-
-#study {
-    position: relative;
-    left: 170px;
-    right: 50px;
-    top: 110px;
-    font-size: 20px;
-    border: 10px solid green;
-    border-radius: 10px;
-    background-color: green;
-    margin-right: 700px;
-}
-
-#job {
-    position: relative;
-    left: 170px;
-    right: 50px;
-    top: 140px;
-    font-size: 20px;
-    border: 10px solid green;
-    border-radius: 10px;
-    background-color: green;
-    margin-right: 700px;
-}
-
 .bre {
     color: yellow;
 }
-
-@media screen and (max-width:959px) and (min-width: 368) {
-    .first {
-        width: auto;
-    }
+@media screen and (max-width: 1001px) and (min-width: 900px){
     #ifoto{
-        width: auto;
+        position: relative;
+        bottom: 400px;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 870px){
+    #ifoto{
+        position: relative;
+        bottom: 450px;
+    }
+}
+@media screen and (max-width: 870px) and (min-width: 870px){
+    #ifoto{
+        position: relative;
+        bottom: 450px;
     }
 }
