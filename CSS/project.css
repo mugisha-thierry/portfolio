@@ -1,45 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border-start-end-radius: 0;
 }
-header{
+
+header {
     width: 100;
-    background-color:rgb(55, 56, 55) ;
-    }
-    nav ul{
-        margin-left: 500px;
-        display: flex;
-        box-flex: row;
-        padding-bottom: 25px;
-        padding-top: 25px;
-         justify-content:space-around;
-    }
-    nav li{
-        list-style: none;
-    }
-    body{
-        width: 100%;
-        height: 500px;
-        background-color: rgb(55, 56, 55);
-    }
-    .first{
-        background-color: black;
-        height: 500px;
-        color: white;
-        margin-top: 0%;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 0px;
-    }
-#hi{
+    background-color: rgb(55, 56, 55);
+}
+
+nav ul {
+    margin-left: 500px;
+    display: flex;
+    box-flex: row;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(55, 56, 55);
+}
+
+.first {
+    background-color: black;
+    height: 500px;
+    color: white;
+    margin-top: 0%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+#hi {
     position: relative;
     left: 140px;
     top: 120px;
     color: yellow;
     font-size: 20px;
 }
-#name{
+
+#name {
     position: relative;
     left: 190px;
     top: 140px;
@@ -47,39 +54,46 @@ header{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-#status{
+
+#status {
     position: relative;
     left: 140px;
     top: 150px;
 }
-#quote{
+
+#quote {
     position: relative;
     left: 170px;
     right: 50px;
-    top: -180px;
+    bottom: 180px;
     font-size: 20px;
     border: 10px solid green;
     border-radius: 10px;
     background-color: green;
     margin-right: 700px;
 }
-#ifoto{
+
+#ifoto {
     position: relative;
     left: 700px;
-    top: -60px;
+    bottom: 60px;
     width: 300px;
     height: 400px;
+    max-width: 100%;
 }
-nav a{
+
+nav a {
     color: white;
 }
-h2{
+
+h2 {
     position: relative;
     left: 500px;
     top: 20px;
     color: yellow;
 }
-.second{
+
+.second {
     background-color: white;
     height: 500px;
     color: black;
@@ -87,16 +101,17 @@ h2{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 0px;
-
 }
-#ifoto2{
+
+#ifoto2 {
     position: relative;
     left: 700px;
-    top: -300px;
+    bottom: 300px;
     width: 300px;
     height: 450px;
 }
-#moringa{
+
+#moringa {
     position: relative;
     left: 170px;
     right: 50px;
@@ -107,7 +122,8 @@ h2{
     background-color: green;
     margin-right: 700px;
 }
-#eduction{
+
+#eduction {
     position: relative;
     left: 170px;
     right: 300px;
@@ -115,13 +131,15 @@ h2{
     font-size: 20px;
     margin-right: 700px;
 }
-h3{
+
+h3 {
     position: relative;
     left: 500px;
     top: 20px;
     color: yellow;
 }
-.third{
+
+.third {
     background-color: black;
     height: 500px;
     color: white;
@@ -130,28 +148,33 @@ h3{
     margin-right: 50px;
     margin-bottom: 0px;
 }
-h4{
+
+h4 {
     position: relative;
     left: 500px;
-    color: yellow; 
+    color: yellow;
 }
-.fab{
+
+.fab {
     margin-left: 100px;
     color: white;
 }
+
 .fa-envelope {
-    color:white;
+    color: white;
     font-size: 2px;
     margin-left: 50px;
 }
-#pc{
+
+#pc {
     position: relative;
     left: 700px;
-    top: -220px;
+    bottom: 220px;
     width: 300px;
     height: 300px;
 }
-h5{
+
+h5 {
     position: relative;
     left: 190px;
     top: 80px;
@@ -159,12 +182,14 @@ h5{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-#list1{
+
+#list1 {
     position: relative;
     left: 140px;
-    top: 80px; 
+    top: 80px;
 }
-h6{
+
+h6 {
     position: relative;
     left: 190px;
     top: 80px;
@@ -172,12 +197,14 @@ h6{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-#list2{
+
+#list2 {
     position: relative;
     left: 140px;
-    top: 80px; 
+    top: 80px;
 }
-h1{
+
+h1 {
     position: relative;
     left: 190px;
     top: 80px;
@@ -185,12 +212,14 @@ h1{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-#list3{
+
+#list3 {
     position: relative;
     left: 140px;
     top: 80px;
 }
-#why{
+
+#why {
     position: relative;
     left: 170px;
     right: 50px;
@@ -201,7 +230,8 @@ h1{
     background-color: green;
     margin-right: 700px;
 }
-#study{
+
+#study {
     position: relative;
     left: 170px;
     right: 50px;
@@ -212,7 +242,8 @@ h1{
     background-color: green;
     margin-right: 700px;
 }
-#job{
+
+#job {
     position: relative;
     left: 170px;
     right: 50px;
@@ -223,6 +254,13 @@ h1{
     background-color: green;
     margin-right: 700px;
 }
-.bre{
+
+.bre {
     color: yellow;
+}
+
+@media screen and (max-width:959px) {
+    .first {
+        width: auto;
+    }
 }
