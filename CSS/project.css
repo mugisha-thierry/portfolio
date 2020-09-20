@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border-start-end-radius: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -260,8 +260,11 @@ h1 {
     color: yellow;
 }
 
-@media screen and (max-width:959px) {
+@media screen and (max-width:959px) and (min-width: 368) {
     .first {
+        width: auto;
+    }
+    #ifoto{
         width: auto;
     }
 }
