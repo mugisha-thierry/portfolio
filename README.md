@@ -1,6 +1,6 @@
 # MY PORTOFLIO
 ---
-Here is the link to the portoflio webage:
+Here is the link to the portoflio webage: https://mugisha-thierry.github.io/portfolio/
 
 ![computer](https://resize.hswstatic.com/w_796/gif/what-is-a-computer-algorithm.jpg)
 ---
