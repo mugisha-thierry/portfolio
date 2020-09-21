@@ -332,9 +332,13 @@ h1 {
         position: relative;
         top: -30px;
     }
+    #list{
+        position: relative;
+        top: -30px;
+    }
     #list2{
+
         margin-left: 0%;
-        /* margin-bottom: 20%; */
     }
     /* h6{
         position: relative;
